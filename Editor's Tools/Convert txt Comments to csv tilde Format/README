@@ -1,0 +1,20 @@
+IEEE Editor's Tool
+==================
+
+FILENAME: 			IEEE-txt-2-csv.exe
+PURPOSE: 			Convert .txt Comment Files into .csv Files for Input into Comments dB
+OPERATING SYSTEMS: 	32 and 63-bit Windows 
+
+INSTRUCTIONS
+============
+
+1. Place executable script into directory containing .txt files
+2. Double-Click to output equivalent .csv files into same directory
+
+NOTES
+=====
+
+* Run from command line to see progress and errors
+* Perl script is portable to other OSs.  
+
+
