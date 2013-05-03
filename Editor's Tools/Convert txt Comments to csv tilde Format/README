@@ -17,7 +17,7 @@ NOTES
 
 * Run from command line to see progress and errors
 * Perl script is portable to other OSs. 
-* CommenterName is entered as one field, whereas Filemaker tool asks for first
-  and last and outputs <first>, <last> 
+* CommenterName: field in .txt files is entered as one field, whereas Filemaker 
+  tool asks for first and last name separately and outputs <first>, <last> 
 
 
