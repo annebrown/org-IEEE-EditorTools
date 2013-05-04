@@ -17,13 +17,13 @@ PURPOSE:           Convert .txt Comment Files into .csv Files for Input into
 OPERATING SYSTEMS: 32 and 63-bit Windows (use perl code at command line for other OSs) 
 
 INSTRUCTIONS
-============
+------------
 
 1. Place executable script into directory containing .txt files
 2. Double-Click to output equivalent .csv files into same directory
 
 NOTES
-=====
+-----
 
 * Run .exe or .pl from command line to see progress and errors 
 * CommenterName: field in .txt files is entered as one field, whereas Filemaker 
