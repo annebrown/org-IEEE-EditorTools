@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/perl;
 
 ################################################################################
 #
@@ -44,7 +44,8 @@ print "\n$result\n";
 
 sub get_filenames {
 	my ($dir) = @_;
-		opendir DIR, "." or die "Failed in sub 'get_filenames' while trying to open directory: $dir  \nPerl says: \n$!";
+		opendir DIR, "." or die "Failed in sub 'get_filenames' while trying to 
+		    open directory: $dir  \nPerl says: \n$!";
 		my @filenames = readdir DIR;
 		shift @filenames; shift @filenames; # remove . and ..
 	return @filenames;
@@ -58,13 +59,15 @@ sub convert_txt_comment_to_csv {
 	my $line_no = 1;
 	
 	# Opening input file
-	open INFILE, "$infile" or die "Failed in sub 'convert_txt_comment_to_csv' while trying to open for reading file: $infile  \nPerl says: \n$!";     
+	open my $in_fh, '<', "$infile" or die 
+	    "Failed in sub 'convert_txt_comment_to_csv()' while trying to open for 
+	    reading file: $infile  \nPerl says: \n$!";     
  
 	 # Creating output file
 	 if ( -e $outfile) { return "Error: file \"$outfile\" already exists.\n"; }  	
-	 open OUTFILE, ">$outfile" or die "Failed in sub 'convert_txt_comment_to_csv' while trying to open for writing file: $outfile  \nPerl says: \n$!";          
+	 open my $out_fh, '>', "$outfile" or die "Failed in sub 'convert_txt_comment_to_csv()' while trying to open for writing file: $outfile  \nPerl says: \n$!";          
 
-	while(<INFILE>){  # reads line by line from FILE
+	while($in_fh){  # reads line by line from FILE
 		if (!$commentstart and !$remedystart) {chomp;}  # avoids \n on last field
 				
 		if (/CommentID:/) { $str = $str ."\"0";	next;} # begin record 
@@ -91,10 +94,10 @@ sub convert_txt_comment_to_csv {
 		$str = $str ."~" .$_;
 	}
 	
-	print OUTFILE $str;  # Write to file 
+	print $out_fh $str;  # Write to file 
 	
-	close INFILE;                  
-	close OUTFILE;    
+	close $in_fh;                  
+	close $out_fh;    
 	
 	return "Success\n";
 }
