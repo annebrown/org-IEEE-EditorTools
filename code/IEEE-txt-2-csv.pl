@@ -2,17 +2,22 @@
 
 ################################################################################
 #
-# Filename: script.pl
+# Filename: IEEE-txt-2-csv.pl - perl script
 # 
 # Purpose:
-# 	Convert .txt IEEE comment files into .csv files for IEEE Editor
+# 	Converts .txt IEEE comment files into .csv files for IEEE Editors
+#
+# Documentation: See POD
+#
+# Instructions: 
+#   Execute script in directory containing .txt files from contributors.
 #
 # Issues with Filemaker utility:
 #	1. .txt entries are asked for "CommenterName:", however, the Filemaker 
 #		utility asks for first and last name separately, and then places a comma 
 #		after the first name in the output.
 #
-################################################################################
+#################################################################################
 
 use 5.010;
 use strict;
@@ -93,3 +98,45 @@ sub convert_txt_comment_to_csv {
 	
 	return "Success\n";
 }
+
+=head1 NAME
+
+IEEE-txt-2-csv.pl - perl script
+
+=head1 SYNOPSIS
+
+Run the script in the directory containing .txt files from IEEE contributors.  
+The resulting .csv files will be generated into the same directory.
+
+    $ perl ./IEEE-txt-2-csv.pl
+
+=head2 Issues with the FileMaker Utility
+
+.txt entries are asked for "CommenterName:", however, the Filemaker utility asks 
+for first and last name separately, and then places a comma 
+after the first name in the output.
+
+=head1 DESCRIPTION
+
+Converts .txt IEEE comment files into .csv files for IEEE Editors
+
+=head1 SEE ALSO
+
+    https://github.com/annebrown/IEEE.git
+
+=head1 AUTHOR
+
+Anne Brown
+
+=head1 COPYRIGHT
+
+Copyright (c) 20013, the above named AUTHOR.
+
+=head1 LICENSE
+
+This library is free software. You can redistribute it and/or modify it under
+the same terms as Perl itself.
+
+=cut
+
+1;
