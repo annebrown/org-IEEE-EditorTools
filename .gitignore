@@ -1,3 +1,16 @@
-.project
-/.gitignore
+# Eclipse
+/.project
+/.settings
+
+# Perl
+/.includepath
+/inc
+
+# OSs
+Thumbs.db
+.directory
 .DS_Store
+
+# Temp
+*~
+.fuse*
