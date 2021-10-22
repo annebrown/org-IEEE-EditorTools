@@ -5,6 +5,7 @@
 # Perl
 /.includepath
 /inc
+/perltidy.LOG
 
 # OSs
 Thumbs.db

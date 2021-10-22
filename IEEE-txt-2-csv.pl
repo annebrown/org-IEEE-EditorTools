@@ -2,15 +2,12 @@
 
 ################################################################################
 #
-# Filename: IEEE-txt-2-csv.pl - perl script
-# 
-# Purpose:
-# 	Converts .txt IEEE comment files into .csv files for IEEE Editors
-#
-# Documentation: See POD
+# Filename: IEEE-txt-2-csv.pl - portable perl script
+# Author:	Anne Brown
+# Converts .txt IEEE comment files into .csv files for IEEE Editors 
 #
 # Instructions: 
-#   Execute script in directory containing .txt files from contributors.
+#   Execute perl script or exe in directory containing .txt files from contributors.
 #
 # Issues with Filemaker utility:
 #	1. .txt entries are asked for "CommenterName:", however, the Filemaker 
@@ -133,7 +130,7 @@ Anne Brown
 
 =head1 COPYRIGHT
 
-Copyright (c) 20013, the above named AUTHOR.
+Copyright (c) 2021, the above named AUTHOR.
 
 =head1 LICENSE
 
