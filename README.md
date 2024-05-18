@@ -9,7 +9,7 @@
 
 # IEEE Editor Tool
 
-## Problem
+## Issue
 
 CommenterName: field in .txt files is entered as one field, whereas Filemaker tool asks for first and last name separately and outputs <first>, <last>
 
