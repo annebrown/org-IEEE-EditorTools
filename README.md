@@ -11,7 +11,7 @@
 
 ## Issue
 
-```CommenterName:``` field in .txt files is entered as one field, whereas Filemaker tool asks for first and last name separately and outputs ```<first>, <last>```.
+```CommenterName:``` field in .txt editor files is entered as one field, whereas Filemaker tool asks for first and last name separately and outputs ```<first>, <last>```.
 
 ## Description
 
@@ -24,13 +24,13 @@ Place executable or perl script into directory containing .txt files.  Creates c
 ### Windows
 
 ```
-IEEE-txt-2-csv.exe
+C:\Path-to-Editors-Files\IEEE-txt-2-csv
 ```
 
 ### Linux
 
 ```bash
-chmod +x IEEE-txt-csv.pl
-./IEEE-txt-csv.pl
+$ chmod +x IEEE-txt-csv.pl
+$ ./IEEE-txt-csv.pl
 ```
 
