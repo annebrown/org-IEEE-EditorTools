@@ -37,4 +37,4 @@ $ ./IEEE-txt-csv.pl
 
 Creates corresponding .csv files in same directory.  
 
-Run .exe or .pl from command line to see progress and errors 
+Run .exe or .pl from command line to see progress/errors. 
