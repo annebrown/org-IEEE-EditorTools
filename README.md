@@ -1,7 +1,8 @@
-<div style="text-align: right"><sub><sub>
-    <a href="https://github.com/annebrown/?tab=repositories">
-    Repo:</a> <a href="https://github.com/annebrown/org-IEEE-EditorTool/">/dotfiles/</a><a href=
-                                                                                          "README.md">README.md</a>
+<!-- Basic Github Header: annebrown.ca -->
+<div style="text-align: right"><a href="https://www.annebrown.ca">
+	<img src="https://github.com/annebrown/dotfiles/blob/main/static/img/logo-ab.png"  width="25"></a> annebrown.ca </div>
+<div style="text-align: right"><sub><sub><a href="https://github.com/annebrown/?tab=repositories">
+    Repo:</a> <a href="https://github.com/annebrown/org-IEEE-EditorTool/">/org-IEEE-EditorTool/</a><a href="README.md">README.md</a>
 </sub></sub></div>
 
 ---
