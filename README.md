@@ -28,7 +28,7 @@ Run .exe or .pl from command line to see progress and errors
 ### Windows
 
 ```
-C:\Path-to-Editors-Files\IEEE-txt-2-csv
+C:\Path-to-Editors-Files> IEEE-txt-2-csv
 ```
 
 ### Linux
