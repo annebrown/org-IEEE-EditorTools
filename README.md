@@ -19,7 +19,11 @@ Converts Editors' ```.txt``` files to FileMaker ```.csv``` format for input into
 
 ## Usage
 
-Place executable or perl script into directory containing .txt files.  Creates corresponding .csv files in same directory.  Run .exe or .pl from command line to see progress and errors 
+Place executable or perl script into directory containing .txt files.  
+
+Creates corresponding .csv files in same directory.  
+
+Run .exe or .pl from command line to see progress and errors 
 
 ### Windows
 
