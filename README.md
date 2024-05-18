@@ -1,8 +1,19 @@
+<div style="text-align: right"><sub><sub>
+    <a href="https://github.com/annebrown/?tab=repositories">
+    Repos:</a> <a href="https://github.com/annebrown/org-IEEE-EditorTool/">/dotfiles/</a><a href=
+                                                                                          "README.md">README.md</a>
+</sub></sub></div>
+
+---
+<!-- End of Header -->
+
 # IEEE Editor Tool
 
-[My Repos](https://github.com/annebrown/?tab=repositories) > org-IEEE-EditorTools > README.md
+## Description
 
 Converts FileMaker .txt to .csv for input into Comments dB.
+
+## Usage
 
 Windows:          IEEE-txt-2-csv.exe 
 
