@@ -11,7 +11,7 @@
 
 ## Issue
 
-```CommenterName:``` field in .txt editor files is entered as one field, whereas Filemaker tool asks for first and last name separately and outputs ```<first>, <last>```.
+```CommenterName:``` field in .txt editors' files is entered as one field, whereas Filemaker tool asks for first and last name separately and outputs ```<first>, <last>```.
 
 ## Description
 
