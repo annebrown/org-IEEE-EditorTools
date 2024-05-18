@@ -15,7 +15,7 @@
 
 ## Description
 
-Converts FileMaker .txt to .csv for input into Comments dB.
+Converts Editors' ```.txt``` files to FileMaker ```.csv``` format for input into Comments dB.
 
 ## Usage
 
