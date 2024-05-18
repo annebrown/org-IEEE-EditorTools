@@ -21,10 +21,6 @@ Converts Editors' ```.txt``` files to FileMaker ```.csv``` format for input into
 
 Place executable or perl script into directory containing .txt files.  
 
-Creates corresponding .csv files in same directory.  
-
-Run .exe or .pl from command line to see progress and errors 
-
 ### Windows
 
 ```
@@ -34,7 +30,11 @@ C:\Path-to-Editors-Files> IEEE-txt-2-csv
 ### Linux
 
 ```bash
+$ cd path/to/editors-files
 $ chmod +x IEEE-txt-csv.pl
 $ ./IEEE-txt-csv.pl
 ```
 
+Creates corresponding .csv files in same directory.  
+
+Run .exe or .pl from command line to see progress and errors 
