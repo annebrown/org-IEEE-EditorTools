@@ -1,6 +1,6 @@
 <div style="text-align: right"><sub><sub>
     <a href="https://github.com/annebrown/?tab=repositories">
-    Repos:</a> <a href="https://github.com/annebrown/org-IEEE-EditorTool/">/dotfiles/</a><a href=
+    Repo:</a> <a href="https://github.com/annebrown/org-IEEE-EditorTool/">/dotfiles/</a><a href=
                                                                                           "README.md">README.md</a>
 </sub></sub></div>
 
