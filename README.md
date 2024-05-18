@@ -21,7 +21,7 @@ Converts FileMaker .txt to .csv for input into Comments dB.
 
 Place executable or perl script into directory containing .txt files.  Creates corresponding .csv files in same directory.  Run .exe or .pl from command line to see progress and errors 
 
-Windows:          IEEE-txt-2-csv.exe 
+Windows:    ```IEEE-txt-2-csv.exe```
 
-Other OSs:  `$ ./IEEE-txt-csv.pl`
+Linux:      ```$ ./IEEE-txt-csv.pl```
 
