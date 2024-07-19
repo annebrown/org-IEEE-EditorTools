@@ -9,10 +9,10 @@
 # Instructions: 
 #   Execute perl script or exe in directory containing .txt files from contributors.
 #
-# Issues with Filemaker utility:
-#	1. .txt entries are asked for "CommenterName:", however, the Filemaker 
-#		utility asks for first and last name separately, and then places a comma 
-#		after the first name in the output.
+# Issue with Filemaker utility:
+# - txt entries are asked for "CommenterName:", however, the Filemaker 
+#   utility asks for first and last name separately, and then places a comma 
+#   after the first name in the output.
 #
 #################################################################################
 
@@ -110,7 +110,7 @@ The resulting .csv files will be generated into the same directory.
 
     $ perl ./IEEE-txt-2-csv.pl
 
-=head2 Issues with the FileMaker Utility
+=head2 Issue with the FileMaker Utility
 
 .txt entries are asked for "CommenterName:", however, the Filemaker utility asks 
 for first and last name separately, and then places a comma 
@@ -130,7 +130,7 @@ Anne Brown
 
 =head1 COPYRIGHT
 
-Copyright (c) 2021, the above named AUTHOR.
+Copyright (c) 2021, Anne Brown.
 
 =head1 LICENSE
 
